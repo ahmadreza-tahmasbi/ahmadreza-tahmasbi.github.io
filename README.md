@@ -1,5 +1,5 @@
-# a-tahmasebi.github.io
+# ahmadrezatahmasebi.github.io
 
 Personal academic website of Ahmadreza Tahmasebi, Ph.D. researcher in Mechanical Engineering at Tarbiat Modares University.
 
-Live: https://a-tahmasebi.github.io
+Live: https://ahmadrezatahmasebi.github.io
