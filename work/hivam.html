@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Hybrid injection–volumetric printing · Ahmadreza Tahmasebi</title>
+<meta name="description" content="Case study: HIVAM pairs volumetric curing with in-situ injection to print opaque, filled and low-viscosity resins and reinforced parts.">
+<meta name="theme-color" content="#050B14">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Hybrid injection–volumetric printing · Ahmadreza Tahmasebi">
+<meta property="og:description" content="Case study: HIVAM pairs volumetric curing with in-situ injection to print opaque, filled and low-viscosity resins and reinforced parts.">
+<meta property="og:image" content="https://tahmasebi.me/og.png">
+<meta property="og:url" content="https://tahmasebi.me/work/hivam.html">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preload" href="../assets/fonts/sofia-sans-condensed-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="../assets/fonts/fonts.css">
+<link rel="canonical" href="https://tahmasebi.me/work/hivam.html">
+<link rel="icon" type="image/png" sizes="32x32" href="../assets/icons/favicon-32.png">
+<link rel="apple-touch-icon" href="../assets/icons/apple-touch-icon.png">
+<link rel="stylesheet" href="../assets/style.css">
+<!-- Visitor stats: create a free site at goatcounter.com, then replace YOURCODE and remove these comment marks.
+<script data-goatcounter="https://YOURCODE.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script> -->
+</head>
+<body>
+<div class="ambient" aria-hidden="true"><div class="pool p1"></div><div class="pool p2"></div><div class="pool p3"></div><div class="grid"></div><div class="lit"></div></div>
+<div class="vignette" aria-hidden="true"></div>
+<div class="grain" aria-hidden="true"></div>
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="../"><span class="mark" aria-hidden="true">AT</span><span class="bn">Ahmadreza <em>Tahmasebi</em><small>Mechanical Engineering · TMU</small></span></a>
+    <button class="menu-btn" id="menu-btn" type="button" aria-expanded="false" aria-controls="nav-links"><i aria-hidden="true"></i>Menu</button>
+    <nav class="links" id="nav-links" aria-label="Sections">
+      <a href="../#statement">Research</a>
+      <a href="../#about">About</a>
+      <a href="../#projects">Projects</a>
+      <a href="../#publications">Papers</a>
+      <a href="../#news">News</a>
+      <a href="../#record">Record</a>
+      <a class="cta" href="../#contact">Contact</a>
+    </nav>
+  </div>
+  <span class="progress" id="progress" aria-hidden="true"></span>
+</header>
+
+<main id="top">
+  <section class="hero case-hero" id="hero">
+    <div class="xh" aria-hidden="true"><i class="v"></i><i class="h"></i><b id="xhl">X 000.0  Y 000.0 mm</b></div>
+    <div class="wrap">
+      <div class="sheet">
+        <div class="zones" aria-hidden="true"><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span></div>
+        <div class="sheet-body">
+          <div class="hero-text">
+            <div class="crumbs"><a href="../#projects">← All projects</a><span>/</span><span>Case study 02</span></div>
+            <span class="status"><i></i>Ph.D. research area · published 2026</span>
+            <h1>Hybrid injection–<span>volumetric printing</span></h1>
+            <p class="lede">HIVAM pairs directional volumetric curing with synchronised in-situ injection of a second material, so volumetric printing can handle resins and structures it normally cannot.</p>
+          </div>
+          <dl class="meta">
+            <div><dt>Year</dt><dd>2026</dd></div>
+            <div><dt>Role</dt><dd>Co-author</dd></div>
+            <div><dt>Group</dt><dd>Dr. A. H. Behravesh, TMU</dd></div>
+            <div><dt>Process</dt><dd>Volumetric AM + injection</dd></div>
+            <div><dt>Journal</dt><dd>Progress in Additive Manufacturing</dd></div>
+            <div><dt>DOI</dt><dd style="font-family:var(--f-mono);font-size:.78rem;text-transform:none;letter-spacing:0;font-weight:400"><a href="https://doi.org/10.1007/s40964-026-01720-w" target="_blank" rel="noopener">10.1007/s40964-026-01720-w</a></dd></div>
+          </dl>
+        </div>
+        <div class="tblock" style="grid-template-columns:repeat(4,1fr)">
+          <div class="num"><small>Reinforcement</small><b>1.5 wt% GO</b></div>
+          <div class="num"><small>Demonstrations</small><b>3</b></div>
+          <div class="num"><small>Volume</small><b>11 (8)</b></div>
+          <div class="num"><small>Published</small><b>May 2026</b></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="problem">
+    <div class="wrap">
+      <div class="sh"><i class="balloon">A</i><span class="label">Problem</span><span class="sheetno">Sheet 2 / 5</span></div>
+      <h2 class="sec-title">Fast, but picky about resin</h2>
+      <div class="two" style="margin-top:28px">
+        <div class="prose">
+          <p>Volumetric additive manufacturing (VAM) projects a sequence of computed light patterns into a rotating vial of photopolymer, and the whole part cures at once in seconds, without supports or layers.</p>
+          <p>That speed comes with strict material rules. The resin must be highly transparent so light reaches the whole volume, which rules out opaque resins and resins carrying light-scattering fillers. Low-viscosity resins are difficult because the partly cured part moves before it is finished. And a conventional VAM print contains one material.</p>
+        </div>
+        <dl class="spec" style="margin-top:0">
+          <div><dt>Opaque resins</dt><dd>Block light from reaching the far side of the vial</dd></div>
+          <div><dt>Filled resins</dt><dd>Scatter light, blurring the projected dose</dd></div>
+          <div><dt>Thin resins</dt><dd>Let the curing part drift or sink</dd></div>
+          <div><dt>Single material</dt><dd>No inserts, cavities or second phase in one print</dd></div>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="approach">
+    <div class="wrap">
+      <div class="sh"><i class="balloon">B</i><span class="label">Approach</span><span class="sheetno">Sheet 3 / 5</span></div>
+      <h2 class="sec-title">Cure the shell, inject the core</h2>
+      <div class="two" style="margin-top:28px">
+        <div class="prose">
+          <p>HIVAM combines two actions in one print. Directional volumetric curing builds the part from a printable resin, and a needle injects a second material into the vial in sync with the cure. The injected material can fill a cavity, form a reinforced core, or remain liquid inside a cured shell.</p>
+          <p>The study compared several injection algorithms and processing conditions to find stable fabrication windows, where the injected material stays in place and the part keeps its dimensions.</p>
+        </div>
+        <figure class="fig">
+          <svg class="schem" viewBox="0 0 560 320" role="img" aria-label="Schematic of hybrid injection volumetric additive manufacturing">
+            <line class="cl" x1="295" y1="40" x2="295" y2="300"/>
+            <rect class="k" x="281" y="6" width="28" height="26"/>
+            <line class="h" x1="295" y1="32" x2="295" y2="168"/>
+            <rect class="k" x="250" y="62" width="90" height="206" rx="8"/>
+            <rect class="af" x="253" y="92" width="84" height="173" rx="5"/>
+            <path class="a" d="M258 54 A42 9 0 0 1 332 54"/><path class="hf" style="fill:var(--accent)" d="M334 55 l-9 -6 l1 9z"/>
+            <rect class="k" x="20" y="132" width="70" height="56"/>
+            <path class="k" d="M90 142 L112 134 V186 L90 178"/>
+            <line class="a" x1="112" y1="140" x2="253" y2="112"/>
+            <line class="a" x1="112" y1="160" x2="253" y2="160"/>
+            <line class="a" x1="112" y1="180" x2="253" y2="214"/>
+            <rect x="272" y="132" width="46" height="88" rx="4" fill="var(--accent)" fill-opacity=".45" stroke="var(--accent)"/>
+            <ellipse class="hf" cx="295" cy="182" rx="11" ry="20"/>
+            <text x="18" y="124">DMD projector</text>
+            <text x="126" y="104">Computed light patterns</text>
+            <line class="ld" x1="309" y1="18" x2="350" y2="18"/><text x="356" y="22" class="t">Synchronised injection</text>
+            <line class="ld" x1="332" y1="48" x2="380" y2="58"/><text x="386" y="62">Vial rotation</text>
+            <line class="ld" x1="318" y1="140" x2="380" y2="132"/><text x="386" y="136" class="t">Cured part</text>
+            <line class="ld" x1="306" y1="186" x2="380" y2="186"/><text x="386" y="182" class="t">Injected core</text><text x="386" y="198">GO resin · STF</text>
+            <line class="ld" x1="337" y1="246" x2="380" y2="246"/><text x="386" y="250">Photopolymer bath</text>
+          </svg>
+          <figcaption><b>FIG. 1</b> HIVAM principle: volumetric curing from projected patterns, with a second material injected into the part during the cure (schematic, not to scale).</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="results">
+    <div class="wrap">
+      <div class="sh"><i class="balloon">C</i><span class="label">Demonstrations</span><span class="sheetno">Sheet 4 / 5</span></div>
+      <h2 class="sec-title">What became printable</h2>
+      <div class="fig" style="margin-top:28px">
+        <div class="tbl-wrap"><table>
+          <thead><tr><th>Material</th><th>Structure</th><th>Outcome</th></tr></thead>
+          <tbody>
+            <tr><td>Opaque resin</td><td>Hollow and multi-material parts</td><td>Printed although it blocks light, outside the usual VAM window</td></tr>
+            <tr><td>Graphene-oxide resin</td><td>Internally reinforced parts</td><td>Composite cores with up to 1.5 wt% GO</td></tr>
+            <tr><td>Shear-thickening fluid</td><td>Liquid-filled architectures</td><td>Mechanical response that depends on strain rate</td></tr>
+          </tbody>
+        </table></div>
+        <figcaption><b>TABLE 1</b> Proof-of-concept parts reported in the paper. Full process windows and measurements are in the article.</figcaption>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="outputs">
+    <div class="wrap">
+      <div class="sh"><i class="balloon">D</i><span class="label">Publication</span><span class="sheetno">Sheet 5 / 5</span></div>
+      <h2 class="sec-title">Record of the paper</h2>
+      <div class="two" style="margin-top:28px">
+        <div class="prose">
+          <p>O. Kordi, A. H. Behravesh, M. M. Ghafari, A. Kavian, <b>A. R. Tahmasebi</b>, A. A. Milani, G. Rizvi. Hybrid injection–volumetric additive manufacturing for rapid fabrication of multi-material and encapsulated reinforced structures in low-viscosity resins. <i>Progress in Additive Manufacturing</i> 11(8), 7139–7160, 2026.</p>
+          <div class="btns" style="margin-top:18px"><a class="btn primary" href="https://doi.org/10.1007/s40964-026-01720-w" target="_blank" rel="noopener">Read the article ↗</a><a class="btn" href="https://www.researchsquare.com/article/rs-8791467/v1" target="_blank" rel="noopener">Preprint ↗</a></div>
+          <ul class="tl" style="margin-top:30px">
+            <li><time>Feb 2026</time><strong>Preprint posted, manuscript received</strong><span>Research Square · received 5 February 2026</span></li>
+            <li><time>Apr 2026</time><strong>Accepted</strong><span>22 April 2026</span></li>
+            <li class="now"><time>May 2026</time><strong>Published online</strong><span>20 May 2026 · issue 8, August 2026</span></li>
+          </ul>
+        </div>
+        <div class="next"><span class="label">Next case study</span><a href="hernia-mesh.html">PGA-fibre surgical mesh →</a></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="fgrid">
+      <div class="fcol"><span class="mark" aria-hidden="true">AT</span><p><b>Ahmadreza Tahmasebi</b><br>Ph.D. researcher, Mechanical Engineering<br>Tarbiat Modares University, Tehran</p></div>
+      <div class="fcol"><span class="label">Sections</span><a href="../#statement">Research</a><a href="../#projects">Projects</a><a href="../#publications">Publications</a><a href="../#news">News</a><a href="../#contact">Contact</a></div>
+      <div class="fcol"><span class="label">Profiles</span><a href="https://scholar.google.com/citations?user=3OH_9tcAAAAJ&amp;hl=en" target="_blank" rel="noopener">Google Scholar ↗</a><a href="https://orcid.org/0009-0008-6330-8105" target="_blank" rel="noopener">ORCID ↗</a><a href="https://www.researchgate.net/profile/Ahmadreza-Tahmasebi" target="_blank" rel="noopener">ResearchGate ↗</a><a href="https://www.alphaxiv.org/@ahmadreza-tahmasebi" target="_blank" rel="noopener">alphaXiv ↗</a><a href="https://www.linkedin.com/in/ahmadreza-tahmasbi/" target="_blank" rel="noopener">LinkedIn ↗</a></div>
+      <div class="fcol"><span class="label">Drawing set</span><span class="mono">Sheets 1–8 · Rev. J</span><span class="mono">Last revised Nov 2026</span><a href="../assets/Ahmadreza-Tahmasebi-CV.pdf" target="_blank" rel="noopener">CV · PDF ↓</a><a href="#top">Back to top ↑</a></div>
+    </div>
+    <div class="fbar mono"><span>© 2026 Ahmadreza Tahmasebi</span><span>All dimensions in mm unless stated</span></div>
+  </div>
+</footer>
+<script src="../assets/site.js"></script>
+</body>
+</html>
